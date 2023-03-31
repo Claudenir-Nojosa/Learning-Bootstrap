@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <form id="login_form">
+            <div id="form_header">
+                <h1>Bootstrap Form</h1>
+            </div>
+            <div id="social_media">
+                <a href="https://www.instagram.com/snclaudenir/" target="_blank">
+                    <img src="assets/images/instagram-logo.svg" alt="Instagram logo">
+                </a>
+                <a href="https://www.linkedin.com/in/claudenir-filho-4b157a264/" target="_blank">
+                    <img src="assets/images/linkedin-logo.svg" alt="Linkedin logo">
+                </a>
+                <a href="https://github.com/Claudenir-Nojosa" target="_blank">
+                    <img src="assets/images/github-logo.svg" alt="Github logo">
+                </a>
+            </div>
+            <div id="inputs">
+                <div class="input-box">
+                    <label class="form-label" for="name">
+                        Nome
+                        <div class="input-field">
+                            <input class="form-control" placeholder="Insira seu nome" id="name" name="name" type="text">
+                        </div>
+                    </label>
+                    <label class="form-label" for="email">
+                        E-mail
+                        <div class="input-field">
+                            <input class="form-control" placeholder="Insira seu e-mail" id="email" name="email" type="email">
+                        </div>
+                    </label>
+                    <label class="form-label" for="telefone">
+                        Celular
+                        <div class="input-field">
+
+                            <input class="form-control" placeholder="Insira seu celular" id="telefone" name="telefone" type="tel">
+                        </div>
+                    </label>
+                    <div class="form-check form-switch">
+                        <label for="aceito-termos" class="form-check-label">Li e concordo com os termos do site</label>
+                        <input type="checkbox" id="aceito termos" class="form-check-input">
+                    </div>
+                    <div id="login_button">
+                        <button class="btn btn-outline-secondary" id="btn" type="submit">Login</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div id="footer">
+            <footer>
+                <img src="/assets/images/code-footer.png" alt="Code logo">
+                <h3>Coded by</h3>
+                <a href="https://youtube.com/shorts/OR7sW7rUaqs?feature=share" target="_blank">
+                    <img src="/assets/images/parrot-footer.png" alt="">
+                </a>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
